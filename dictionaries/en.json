@@ -1,0 +1,253 @@
+{
+  "hero": {
+    "subtitle": "The Address of Luxury and Comfort",
+    "titleLine1": "Experience",
+    "titleLine2": "The",
+    "titleLine3": "Unforgettable",
+    "description": "An unforgettable accommodation experience awaits you at our hotel, offering a blend of luxury and comfort in the heart of the city. Make your reservation now and meet our exclusive services.",
+    "button": "Explore Our Rooms"
+  },
+
+  "experience": {
+    "mainTitleLine1": "Experience",
+    "mainTitleLine2": "The Peak of",
+    "mainTitleLine3": "Luxury",
+    "mainDescription": "Escape the city's rush but never lose its pulse.",
+    "linkRoomsLine1": "Explore",
+    "linkRoomsLine2": "Our Rooms",
+    "linkAboutLine1": "More About",
+    "linkAboutLine2": "Our Hotel",
+    "secondaryTitleLine1": "Exclusive",
+    "secondaryTitleLine2": "Services Just",
+    "secondaryTitleLine3": "For You",
+    "premiumBadge": "Premium",
+    "sloganLine1": "The Blue Hotel İzmir",
+    "sloganLine2": "Enjoy Luxury and Comfort"
+  },
+
+  "rooms": {
+    "titleLine1": "Our Rooms",
+    "titleLine2": "& Suites",
+    "bookButton": "Book Now",
+    "startingFrom": "starting from",
+    "perNight": "Per Night",
+    "bookNow": "Book Now",
+    "items": [
+      {
+        "name": "Deluxe Room",
+        "specs": "25 m² / 2 adults",
+        "capacity": "2 Adults",
+        "bed": "1 Double Bed",
+        "amenities": [
+          "Air Conditioning",
+          "Kettle & Tea/Coffee",
+          "Free Wi-Fi",
+          "LCD TV"
+        ]
+      },
+      {
+        "name": "Junior Suite",
+        "specs": "120 m² / 2 adults 1 child",
+        "capacity": "2 Adults, 1 Child",
+        "bed": "1 King Bed + 1 Sofa",
+        "amenities": [
+          "Air Conditioning",
+          "Kettle & Tea/Coffee",
+          "High-Speed Wi-Fi",
+          "Smart TV",
+          "Minibar"
+        ]
+      },
+      {
+        "name": "Spa Suite",
+        "specs": "30 m² / 2 adults",
+        "capacity": "2 Adults",
+        "bed": "1 King Bed",
+        "amenities": [
+          "Air Conditioning",
+          "Kettle & Tea/Coffee",
+          "Free Wi-Fi",
+          "Private Jacuzzi"
+        ]
+      }
+    ]
+  },
+
+  "about": {
+    "title": "The Blue Hotel İzmir",
+    "paragraph1": "Located in the heart of the city, The Blue Hotel İzmir offers its guests an unforgettable accommodation experience with its modern design and luxury amenities. Prioritizing quality and comfort in every detail, our hotel is an ideal choice for both business and leisure travelers.",
+    "paragraph2": "Contact us today to make a reservation or to get more information. Our professional team will be happy to assist you in planning your stay in the best possible way.",
+    "button": "Contact"
+  },
+
+  "ourHotel": {
+    "title": "Our Hotel",
+    "imageAltPrefix": "Hotel View",
+    "close": "Close"
+  },
+
+  "reviews": {
+    "titleLine1": "What Our",
+    "titleLine2": "Guests Said?",
+    "items": [
+      {
+        "author": "Ahmet Yılmaz",
+        "date": "2 weeks ago",
+        "rating": 5,
+        "text": "The location is amazing, we could walk everywhere. The rooms were modernly designed and spotless. The staff was very helpful in every aspect."
+      },
+      {
+        "author": "Selin Demir",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "We discovered it by chance during our trip to Izmir, but we are so glad we stayed here. The breakfast was very rich, the beds were incredibly comfortable. Definitely recommend."
+      },
+      {
+        "author": "Caner Kaya",
+        "date": "3 months ago",
+        "rating": 5,
+        "text": "The facility is generally very stylish and clean. The spa section exceeded our expectations. Only the parking entrance was a bit narrow, but the valet service saves the day."
+      },
+      {
+        "author": "Zeynep Şahin",
+        "date": "1 week ago",
+        "rating": 5,
+        "text": "I stayed for a business trip. The internet speed is great, the workspace in the room is ergonomically designed. Thanks to the friends at the reception."
+      },
+      {
+        "author": "Murat Çelik",
+        "date": "2 months ago",
+        "rating": 5,
+        "text": "We came with my wife for our anniversary, they made a wonderful gesture and decorated the room. The view and the general atmosphere of the hotel are very fascinating."
+      },
+      {
+        "author": "Elif Aydın",
+        "date": "4 months ago",
+        "rating": 5,
+        "text": "By far the best hotel in Izmir in terms of price/performance. It's right in the center but no noise reaches the rooms. We will definitely come again."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact Information",
+    "addressTitle": "Address",
+    "addressLine1": "Mursel Pasa Boulevard 1265 St. No:13",
+    "addressLine2": "Konak / Izmir, Turkey",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email"
+  },
+
+  "form": {
+    "title": "Contact Us",
+    "nameLabel": "Full Name",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Email Address",
+    "messageLabel": "Your Message",
+    "submitButton": "Send"
+  },
+
+  "header": {
+    "home": "Home",
+    "rooms": "Our Rooms",
+    "deluxeRoom": "Deluxe Room",
+    "juniorSuite": "Junior Suite",
+    "spaSuite": "Spa Suite",
+    "about": "About Us",
+    "ourHotel": "Our Hotel",
+    "contact": "Contact",
+    "reservation": "Book Now"
+  },
+
+  "footer": {
+    "addressLine1": "Mursel Pasa Boulevard 1265 St. No:13",
+    "addressLine2": "Konak / Izmir, Turkey",
+    "home": "Home",
+    "about": "About Us",
+    "ourHotel": "Our Hotel",
+    "contact": "Contact",
+    "rooms": "Our Rooms",
+    "deluxeRoom": "Deluxe Room",
+    "juniorSuite": "Junior Suite",
+    "spaSuite": "Spa Suite",
+    "slogan": "Experience the unforgettable.",
+    "bookButton": "Book Now",
+    "rights": "All Rights Reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+
+  "terms": {
+    "backHome": "Back to Home",
+    "title": "Terms & Conditions",
+    "lastUpdate": "Last Update",
+    "section1Title": "1. Introduction",
+    "section1Text": "These terms and conditions govern your use of The Blue Hotel Izmir website (www.thebluehotelizmir.com) and your stays at our hotel. By using our site or making a reservation, you agree to these terms.",
+    "section2Title": "2. Reservation and Payment",
+    "bullet1": "To confirm a reservation, payment of the first night's accommodation fee as a deposit or guarantee with a valid credit card may be required.",
+    "bullet2": "All our prices include VAT and other applicable local taxes.",
+    "bullet3": "Check-in time is 14:00, and check-out time is 12:00. Early check-in or late check-out requests are subject to hotel availability and may incur an extra charge.",
+    "section3Title": "3. Cancellation and Refund Policy",
+    "section3Text": "For standard reservations, cancellations made up to 48 hours before the check-in date are free of charge, and the paid amount will be refunded. Cancellations, changes, or refunds cannot be made for non-refundable promotional reservations. In case of late cancellations or no-show, the first night's accommodation fee will be charged.",
+    "section4Title": "4. Hotel Rules and Accommodation",
+    "rule1Title": "Smoking:",
+    "rule1Text": "Smoking is strictly prohibited in all indoor areas and rooms of our hotel. In case of violation, a deep cleaning fee will be charged to your bill.",
+    "rule2Title": "Pets:",
+    "rule2Text": "Pets are not allowed in our hotel (Guide dogs are exceptions, please contact us in advance).",
+    "rule3Title": "Visitors:",
+    "rule3Text": "For security reasons, unregistered guests are not allowed in the rooms. All visitors must register at the reception.",
+    "rule4Title": "Damage:",
+    "rule4Text": "Guests are financially responsible for any damage caused to hotel property due to their own use.",
+    "section5Title": "5. Limitation of Liability",
+    "section5Text": "Our hotel cannot be held responsible for the loss or theft of valuables left by guests in their rooms or public areas. Please use the room safes. Guests using our parking area understand and accept that the hotel accepts no responsibility for any damage or theft that may occur to their vehicles.",
+    "section6Title": "6. Contact Information",
+    "section6Text": "If you have any questions regarding these terms and conditions, please feel free to contact us:",
+    "hotelName": "The Blue Hotel Izmir",
+    "address": "Mursel Pasa Boulevard 1265 St. No:13 Konak / Izmir",
+    "email": "Email",
+    "phone": "Phone"
+  },
+
+  "privacy": {
+    "backHome": "Back to Home",
+    "title": "Privacy Policy & GDPR",
+    "lastUpdate": "Last Update",
+    "section1Title": "1. Introduction and Data Controller",
+    "section1Text": "As The Blue Hotel Izmir, we attach great importance to the privacy of our guests and users visiting our website. This Privacy Policy has been prepared to inform you about how your personal data is collected, used, protected, and shared in accordance with applicable data protection laws.",
+    "section2Title": "2. Personal Data We Collect",
+    "section2Intro": "To provide you with better service, we collect the following categories of personal data:",
+    "item1Title": "Identity Information:",
+    "item1Text": "Your name, surname, ID or passport number, and date of birth (collected during stay due to legal obligations).",
+    "item2Title": "Contact Information:",
+    "item2Text": "Your email address, phone number, and postal address.",
+    "item3Title": "Financial Information:",
+    "item3Text": "Your credit/debit card information and billing details (processed through secure payment infrastructures for transaction processing).",
+    "item4Title": "Accommodation Data:",
+    "item4Text": "Your arrival/departure dates, special requests, room preferences, and optional information such as allergy/health status if any.",
+    "item5Title": "Digital Data:",
+    "item5Text": "IP address, browser type, and in-site navigation data collected via cookies when you visit our website.",
+    "section3Title": "3. Purposes of Processing Data",
+    "section3Intro": "Your collected personal data is processed for the following purposes:",
+    "purpose1": "Making and confirming your hotel reservation and fully providing accommodation services.",
+    "purpose2": "Fulfilling legal obligations regarding identity notification and invoicing.",
+    "purpose3": "Measuring guest satisfaction and managing your requests and complaints.",
+    "purpose4": "Provided you have given explicit consent; informing you about special campaigns, discounts, and developments regarding our hotel.",
+    "purpose5": "Ensuring facility security with security camera records inside and around the hotel.",
+    "section4Title": "4. Sharing and Transfer of Data",
+    "section4Text": "As a rule, your personal data is not shared with third parties. However, it may be shared with legal authorities (such as the Law Enforcement Notification System) where legally required, and with suppliers we receive services from (such as reservation management systems, financial advisors, and secure payment institutions) strictly limited to the performance of the service.",
+    "section5Title": "5. Data Security and Cookies",
+    "section5Text": "We take appropriate technical and administrative security measures to prevent unauthorized access, loss, or alteration of your personal data. Our website uses cookies to improve your experience. You can disable cookies via your browser settings, but this may prevent some features of the site from working properly.",
+    "section6Title": "6. Your Rights",
+    "section6Intro": "As a data subject, you have the following rights:",
+    "right1": "Learning whether your personal data is processed and requesting information if so.",
+    "right2": "Learning the purpose of processing and whether they are used in accordance with their purpose.",
+    "right3": "Requesting the correction of incomplete or incorrect data and requesting its deletion/destruction.",
+    "right4": "Requesting compensation for damages in case you suffer damage due to unlawful processing.",
+    "section7Title": "7. Contact",
+    "section7Text": "You can reach us through the contact channels below to exercise your rights regarding your personal data or to ask questions about this policy. Your applications will be concluded as soon as possible and within 30 days at the latest.",
+    "hotelName": "The Blue Hotel Izmir",
+    "address": "Mursel Pasa Boulevard 1265 St. No:13 Konak / Izmir",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

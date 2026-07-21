@@ -1,0 +1,248 @@
+{
+  "hero": {
+    "subtitle": "Lüks ve Konforun Adresi",
+    "titleLine1": "Unutulmaz",
+    "titleLine2": "Bir Deneyim",
+    "titleLine3": "Yaşayın",
+    "description": "Şehrin merkezinde, lüks ve konforu bir arada sunan otelimizde, unutulmaz bir konaklama deneyimi sizi bekliyor. Rezervasyonunuzu hemen yapın ve ayrıcalıklı hizmetlerimizle tanışın.",
+    "button": "Odalarımızı Keşfedin"
+  },
+
+  "experience": {
+    "mainTitleLine1": "Lüksün",
+    "mainTitleLine2": "Zirvesini",
+    "mainTitleLine3": "Deneyimleyin",
+    "mainDescription": "Şehrin telaşından kaçın ama şehrin nabzını da kaybetmeyin.",
+    "linkRoomsLine1": "Odalarımızı",
+    "linkRoomsLine2": "Keşfedin",
+    "linkAboutLine1": "Otelimiz Hakkında",
+    "linkAboutLine2": "Daha Fazla",
+    "secondaryTitleLine1": "Size Özel",
+    "secondaryTitleLine2": "Ayrıcalıklı",
+    "secondaryTitleLine3": "Hizmetler",
+    "premiumBadge": "Premium",
+    "sloganLine1": "The Blue Hotel İzmir",
+    "sloganLine2": "Lüks ve Konforun Tadını Çıkarın"
+  },
+
+  "rooms": {
+    "titleLine1": "Odalarımız",
+    "titleLine2": "Ve Suitlerimiz",
+    "bookButton": "Rezervasyon Yap",
+    "startingFrom": "başlayan fiyatlarla",
+    "perNight": "Gecelik",
+    "bookNow": "Hemen Rezervasyon Yap",
+    "items": [
+      {
+        "name": "Deluxe Oda",
+        "specs": "25 m² / 2 Yetişkin",
+        "capacity": "2 Yetişkin",
+        "bed": "1 Çift Kişilik Yatak",
+        "amenities": ["Klima", "Kettle & Çay/Kahve", "Ücretsiz Wi-Fi", "LCD TV"]
+      },
+      {
+        "name": "Junior Suit",
+        "specs": "120 m² / 2 Yetişkin 1 Çocuk",
+        "capacity": "2 Yetişkin, 1 Çocuk",
+        "bed": "1 King Yatak + 1 Kanepe",
+        "amenities": [
+          "Klima",
+          "Kettle & Çay/Kahve",
+          "Hızlı Wi-Fi",
+          "Akıllı TV",
+          "Minibar"
+        ]
+      },
+      {
+        "name": "Spa Suit",
+        "specs": "30 m² / 2 Yetişkin",
+        "capacity": "2 Yetişkin",
+        "bed": "1 King Yatak",
+        "amenities": [
+          "Klima",
+          "Kettle & Çay/Kahve",
+          "Ücretsiz Wi-Fi",
+          "Özel Jakuzi"
+        ]
+      }
+    ]
+  },
+
+  "about": {
+    "title": "The Blue Hotel İzmir",
+    "paragraph1": "The Blue Hotel İzmir, şehrin kalbinde konumlanmış, modern tasarımı ve lüks olanaklarıyla misafirlerine unutulmaz bir konaklama deneyimi sunar. Her detayda kaliteyi ve konforu ön planda tutan otelimiz, iş veya tatil amaçlı seyahat edenler için ideal bir seçenektir.",
+    "paragraph2": "Rezervasyon yapmak veya daha fazla bilgi almak için hemen bizimle iletişime geçin. Profesyonel ekibimiz, konaklamanızı en iyi şekilde planlamanıza yardımcı olmaktan mutluluk duyacaktır.",
+    "button": "İletişim"
+  },
+
+  "ourHotel": {
+    "title": "Otelimiz",
+    "imageAltPrefix": "Otel Görünümü",
+    "close": "Kapat"
+  },
+
+  "reviews": {
+    "titleLine1": "Misafirlerimiz",
+    "titleLine2": "Neler Söyledi?",
+    "items": [
+      {
+        "author": "Ahmet Yılmaz",
+        "date": "2 hafta önce",
+        "rating": 5,
+        "text": "Konumu muhteşem, her yere yürüyerek ulaşabildik. Odalar modern dizayn edilmiş ve tertemizdi. Personel her konuda çok yardımcı oldu."
+      },
+      {
+        "author": "Selin Demir",
+        "date": "1 ay önce",
+        "rating": 5,
+        "text": "İzmir seyahatimizde tesadüfen keşfettik ama iyi ki burada kalmışız. Kahvaltısı çok zengin, yataklar inanılmaz rahattı. Kesinlikle tavsiye ederim."
+      },
+      {
+        "author": "Caner Kaya",
+        "date": "3 ay önce",
+        "rating": 5,
+        "text": "Tesis genel olarak çok şık ve temiz. Spa bölümü beklentilerimizin üzerindeydi. Sadece otopark girişi biraz dardı ama vale hizmeti durumu kurtarıyor."
+      },
+      {
+        "author": "Zeynep Şahin",
+        "date": "1 hafta önce",
+        "rating": 5,
+        "text": "İş seyahati için konakladım. İnternet hızı harika, odadaki çalışma alanı çok ergonomik düşünülmüş. Resepsiyondaki arkadaşlara teşekkürler."
+      },
+      {
+        "author": "Murat Çelik",
+        "date": "2 ay önce",
+        "rating": 5,
+        "text": "Eşimle yıldönümümüz için geldik, bize harika bir jest yaparak odayı süslemişlerdi. Manzara ve otelin genel atmosferi çok büyüleyici."
+      },
+      {
+        "author": "Elif Aydın",
+        "date": "4 ay önce",
+        "rating": 5,
+        "text": "Fiyat/performans olarak İzmir'deki açık ara en iyi otel. Hem merkezin içinde hem de odalara ses gelmiyor. Tekrar geleceğiz."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "İletişim Bilgilerimiz",
+    "addressTitle": "Adres",
+    "addressLine1": "Mürsel Paşa Bulvarı 1265 Sk. No:13",
+    "addressLine2": "Konak / İzmir, Türkiye",
+    "phoneTitle": "Telefon",
+    "emailTitle": "E-posta"
+  },
+
+  "form": {
+    "title": "Bize Ulaşın",
+    "nameLabel": "Ad Soyad",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta",
+    "messageLabel": "Mesajınız",
+    "submitButton": "Gönder"
+  },
+
+  "header": {
+    "home": "Ana Sayfa",
+    "rooms": "Odalarımız",
+    "deluxeRoom": "Deluxe Room",
+    "juniorSuite": "Junior Suite",
+    "spaSuite": "Spa Suite",
+    "about": "Hakkımızda",
+    "ourHotel": "Otelimiz",
+    "contact": "İletişim",
+    "reservation": "Rezervasyon"
+  },
+
+  "footer": {
+    "addressLine1": "Mürsel Paşa Bulvarı 1265 Sk. No:13",
+    "addressLine2": "Konak / İzmir, Türkiye",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "ourHotel": "Otelimiz",
+    "contact": "İletişim",
+    "rooms": "Odalarımız",
+    "deluxeRoom": "Deluxe Oda",
+    "juniorSuite": "Junior Suit",
+    "spaSuite": "Spa Suit",
+    "slogan": "Unutulmaz bir deneyim yaşayın.",
+    "bookButton": "Rezervasyon Yap",
+    "rights": "Tüm Hakları Saklıdır.",
+    "terms": "Şartlar ve Koşullar",
+    "privacy": "Gizlilik Politikası"
+  },
+
+  "terms": {
+    "backHome": "Ana Sayfaya Dön",
+    "title": "Şartlar ve Koşullar",
+    "lastUpdate": "Son Güncelleme",
+    "section1Title": "1. Giriş",
+    "section1Text": "Bu şartlar ve koşullar, The Blue Hotel İzmir web sitesini (www.thebluehotelizmir.com) kullanımınızı ve otelimizde yapacağınız konaklamaları düzenler. Sitemizi kullanarak veya rezervasyon yaparak bu şartları kabul etmiş sayılırsınız.",
+    "section2Title": "2. Rezervasyon ve Ödeme",
+    "bullet1": "Rezervasyonun kesinleşmesi için ilk gece konaklama bedelinin kapora olarak ödenmesi veya geçerli bir kredi kartı ile garanti altına alınması gerekebilir.",
+    "bullet2": "Tüm fiyatlarımıza KDV ve diğer geçerli yerel vergiler dahildir.",
+    "bullet3": "Otele giriş (Check-in) saati 14:00, otelden çıkış (Check-out) saati 12:00'dir. Erken giriş veya geç çıkış talepleri, otelin müsaitlik durumuna bağlıdır ve ek ücrete tabi olabilir.",
+    "section3Title": "3. İptal ve İade Politikası",
+    "section3Text": "Standart rezervasyonlarda, giriş tarihinden 48 saat öncesine kadar yapılan iptallerde herhangi bir kesinti uygulanmaz ve ödenen tutar iade edilir. İade edilemez (Non-Refundable) promosyonlu fiyatlarla yapılan rezervasyonlarda iptal, değişiklik veya iade yapılamaz. Belirtilen süreden sonra yapılan iptallerde veya otele gelinmemesi (No-Show) durumunda ilk gece konaklama bedeli tahsil edilir.",
+    "section4Title": "4. Otel Kuralları ve Konaklama",
+    "rule1Title": "Sigara İçme:",
+    "rule1Text": "Otelimizin tüm kapalı alanlarında ve odalarında sigara içmek kesinlikle yasaktır. İhlal durumunda derin temizlik ücreti faturanıza yansıtılacaktır.",
+    "rule2Title": "Evcil Hayvanlar:",
+    "rule2Text": "Otelimize evcil hayvan kabul edilmemektedir (Rehber köpekler hariçtir, lütfen önceden iletişime geçiniz).",
+    "rule3Title": "Ziyaretçiler:",
+    "rule3Text": "Güvenlik gereği, odalara kayıtlı olmayan misafirlerin çıkarılması yasaktır. Tüm ziyaretçilerin resepsiyonda kayıt yaptırması gerekmektedir.",
+    "rule4Title": "Hasar:",
+    "rule4Text": "Misafirler, kendi kullanımlarından kaynaklanan otel mülkündeki her türlü hasardan maddi olarak sorumludur.",
+    "section5Title": "5. Sorumlulukların Sınırlandırılması",
+    "section5Text": "Otelimiz, misafirlerin odalarında veya otelin ortak alanlarında bıraktıkları değerli eşyaların kaybından veya çalınmasından sorumlu tutulamaz. Lütfen odanızda bulunan güvenlik kasalarını kullanınız. Otelimizin otopark alanını kullanan misafirlerimiz, araçlarında meydana gelebilecek hasar veya hırsızlık durumlarında otelin sorumluluk kabul etmediğini anlar ve kabul ederler.",
+    "section6Title": "6. İletişim Bilgileri",
+    "section6Text": "Bu şartlar ve koşullarla ilgili herhangi bir sorunuz varsa, bizimle iletişime geçmekten çekinmeyin:",
+    "hotelName": "The Blue Hotel İzmir",
+    "address": "Mürsel Paşa Bulvarı 1265 Sk. No:13 Konak / İzmir",
+    "email": "E-posta",
+    "phone": "Telefon"
+  },
+
+  "privacy": {
+    "backHome": "Ana Sayfaya Dön",
+    "title": "Gizlilik Politikası ve KVKK",
+    "lastUpdate": "Son Güncelleme",
+    "section1Title": "1. Giriş ve Veri Sorumlusu",
+    "section1Text": "The Blue Hotel İzmir olarak, misafirlerimizin ve web sitemizi ziyaret eden kullanıcıların gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca, kişisel verilerinizin nasıl toplandığı, kullanıldığı, korunduğu ve paylaşıldığı hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.",
+    "section2Title": "2. Topladığımız Kişisel Veriler",
+    "section2Intro": "Size daha iyi hizmet verebilmek için aşağıdaki kişisel veri kategorilerini toplamaktayız:",
+    "item1Title": "Kimlik Bilgileri:",
+    "item1Text": "Adınız, soyadınız, T.C. kimlik veya pasaport numaranız, doğum tarihiniz (Yasal zorunluluklar gereği konaklama sırasında alınır).",
+    "item2Title": "İletişim Bilgileri:",
+    "item2Text": "E-posta adresiniz, telefon numaranız ve posta adresiniz.",
+    "item3Title": "Finansal Bilgiler:",
+    "item3Text": "Kredi/banka kartı bilgileriniz ve fatura detaylarınız (Ödeme işlemleri için güvenli ödeme altyapıları üzerinden işlenir).",
+    "item4Title": "Konaklama Verileri:",
+    "item4Text": "Otele geliş/gidiş tarihleriniz, özel istekleriniz, oda tercihleriniz ve varsa alerji/sağlık durumunuz gibi isteğe bağlı bilgiler.",
+    "item5Title": "Dijital Veriler:",
+    "item5Text": "Web sitemizi ziyaret ettiğinizde çerezler (cookies) aracılığıyla toplanan IP adresi, tarayıcı tipi ve site içi dolaşım bilgileri.",
+    "section3Title": "3. Verilerin İşlenme Amaçları",
+    "section3Intro": "Toplanan kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+    "purpose1": "Otel rezervasyonunuzun yapılması, onaylanması ve konaklama hizmetinin eksiksiz sunulması.",
+    "purpose2": "Yasal mevzuatlardan doğan kimlik bildirimi ve faturalandırma yükümlülüklerinin yerine getirilmesi.",
+    "purpose3": "Misafir memnuniyetinin ölçülmesi, talep ve şikayetlerinizin yönetilmesi.",
+    "purpose4": "Açık rızanız olması halinde; özel kampanyalar, indirimler ve otelimiz hakkındaki gelişmelerin size iletilmesi.",
+    "purpose5": "Otel içi ve çevresi güvenlik kamerası kayıtları ile tesis güvenliğinin sağlanması.",
+    "section4Title": "4. Verilerin Paylaşımı ve Aktarımı",
+    "section4Text": "Kişisel verileriniz, kural olarak üçüncü kişilerle paylaşılmamaktadır. Ancak; Emniyet Genel Müdürlüğü Sistemi (KBS) gibi yasal otoritelerle mevzuat gereği paylaşılması zorunlu olan durumlar ile, rezervasyon yönetim sistemleri, mali müşavirler ve güvenli ödeme kuruluşları gibi hizmet aldığımız tedarikçilerle (sadece hizmetin ifasıyla sınırlı olmak kaydıyla) paylaşılabilir.",
+    "section5Title": "5. Veri Güvenliği ve Çerezler (Cookies)",
+    "section5Text": "Kişisel verilerinizin yetkisiz erişimini, kaybolmasını veya değiştirilmesini önlemek için uygun teknik ve idari güvenlik önlemlerini alıyoruz. Web sitemiz, deneyiminizi iyileştirmek için çerezler kullanmaktadır. Tarayıcı ayarlarınızdan çerezleri devre dışı bırakabilirsiniz ancak bu durum sitenin bazı fonksiyonlarının çalışmasını engelleyebilir.",
+    "section6Title": "6. KVKK Kapsamındaki Haklarınız",
+    "section6Intro": "KVKK'nın 11. maddesi uyarınca veri sahibi olarak aşağıdaki haklara sahipsiniz:",
+    "right1": "Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme.",
+    "right2": "İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme.",
+    "right3": "Eksik veya yanlış işlenen verilerin düzeltilmesini isteme ve silinmesini/yok edilmesini talep etme.",
+    "right4": "Kanuna aykırı işlenme sebebiyle zarara uğramanız halinde zararın giderilmesini talep etme.",
+    "section7Title": "7. İletişim",
+    "section7Text": "Kişisel verilerinizle ilgili haklarınızı kullanmak veya bu politika hakkında sorular sormak için aşağıdaki iletişim kanallarından bize ulaşabilirsiniz. Başvurularınız en kısa sürede ve en geç 30 gün içinde sonuçlandırılacaktır.",
+    "hotelName": "The Blue Hotel İzmir",
+    "address": "Mürsel Paşa Bulvarı 1265 Sk. No:13 Konak / İzmir",
+    "email": "E-posta",
+    "phone": "Telefon"
+  }
+}
