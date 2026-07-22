@@ -3,6 +3,7 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 import { Dictionary } from "@/getDictionary";
 import {
   ArrowLeft,
@@ -25,6 +26,20 @@ export default function RoomsSection({ dict }: { dict: Dictionary["rooms"] }) {
 
   const [selectedRoomIndex, setSelectedRoomIndex] = useState<number | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
+
+  const params = useParams();
+  const pathname = usePathname();
+  const lang = (params?.lang as string) || "tr";
+
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   const rooms = [
     {
@@ -212,7 +227,8 @@ export default function RoomsSection({ dict }: { dict: Dictionary["rooms"] }) {
               </button>
 
               <Link
-                href="/#contact"
+                href={`/${lang}/#contact`}
+                onClick={(e) => handleScrollToSection(e, "contact")}
                 className="ml-2 border border-white text-white px-5 md:px-6 py-2.5 text-[10px] md:text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-colors duration-300"
               >
                 {dict.bookButton}
