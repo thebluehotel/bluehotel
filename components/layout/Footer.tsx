@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useParams, usePathname } from "next/navigation";
 import { Dictionary } from "@/getDictionary";
 import {
   FaFacebookF,
@@ -12,15 +13,30 @@ import {
 
 export default function Footer({
   dict,
-  lang,
+  lang: propLang,
 }: {
   dict: Dictionary["footer"];
   lang: string;
 }) {
+  const params = useParams();
+  const pathname = usePathname();
+
+  const lang = (params?.lang as string) || propLang;
+
   const openRoomModal = (index: number) => {
     window.dispatchEvent(
       new CustomEvent("openRoomLightbox", { detail: index }),
     );
+  };
+
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
   };
 
   return (
@@ -34,7 +50,7 @@ export default function Footer({
                 alt="The Blue Hotel Izmir Logo"
                 width={100}
                 height={100}
-                className="w-25 h-auto"
+                className="w-[100px] h-auto"
               />
             </Link>
 
@@ -96,18 +112,21 @@ export default function Footer({
             </Link>
             <Link
               href={`/${lang}/#about-us`}
+              onClick={(e) => handleScrollToSection(e, "about-us")}
               className="hover:text-white transition-colors"
             >
               {dict.about}
             </Link>
             <Link
               href={`/${lang}/#our-hotel`}
+              onClick={(e) => handleScrollToSection(e, "our-hotel")}
               className="hover:text-white transition-colors"
             >
               {dict.ourHotel}
             </Link>
             <Link
               href={`/${lang}/#contact`}
+              onClick={(e) => handleScrollToSection(e, "contact")}
               className="hover:text-white transition-colors"
             >
               {dict.contact}
@@ -117,6 +136,7 @@ export default function Footer({
           <div className="flex flex-col items-start space-y-5 text-[15px] font-medium text-gray-300 pt-2 md:pt-14">
             <Link
               href={`/${lang}/#rooms`}
+              onClick={(e) => handleScrollToSection(e, "rooms")}
               className="hover:text-white transition-colors"
             >
               {dict.rooms}
@@ -148,6 +168,7 @@ export default function Footer({
             <div>
               <Link
                 href={`/${lang}/#contact`}
+                onClick={(e) => handleScrollToSection(e, "contact")}
                 className="inline-block border border-white text-white px-8 py-3 text-[11px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-colors duration-300"
               >
                 {dict.bookButton}
