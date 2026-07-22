@@ -3,19 +3,22 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useParams } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import { Dictionary } from "@/getDictionary";
 
 export default function Header({
   dict,
-  lang,
+  lang: propLang,
 }: {
   dict: Dictionary["header"];
   lang: string;
 }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
+  const params = useParams(); 
+  
+  const lang = (params?.lang as string) || propLang;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,6 +46,16 @@ export default function Header({
     window.location.href = newUrl;
   };
 
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <nav
       className={`fixed top-0 w-full z-50 text-white transition-colors duration-300 h-20 md:h-20 ${
@@ -60,7 +73,7 @@ export default function Header({
               alt="The Blue Hotel Izmir Logo"
               width={100}
               height={100}
-              className="w-25 h-auto"
+              className="w-[100px] h-auto"
             />
           </Link>
 
@@ -75,6 +88,7 @@ export default function Header({
             <div className="relative group h-full flex items-center">
               <Link
                 href={`/${lang}/#rooms`}
+                onClick={(e) => handleScrollToSection(e, "rooms")}
                 className="flex items-center gap-1 hover:opacity-70 transition-opacity"
               >
                 {dict.rooms}{" "}
@@ -109,18 +123,21 @@ export default function Header({
 
             <Link
               href={`/${lang}/#about-us`}
+              onClick={(e) => handleScrollToSection(e, "about-us")}
               className="hover:opacity-70 transition-opacity"
             >
               {dict.about}
             </Link>
             <Link
               href={`/${lang}/#our-hotel`}
+              onClick={(e) => handleScrollToSection(e, "our-hotel")}
               className="hover:opacity-70 transition-opacity"
             >
               {dict.ourHotel}
             </Link>
             <Link
               href={`/${lang}/#contact`}
+              onClick={(e) => handleScrollToSection(e, "contact")}
               className="hover:opacity-70 transition-opacity"
             >
               {dict.contact}
@@ -140,6 +157,7 @@ export default function Header({
             >
               TR
             </button>
+            <span>/</span>
             <button
               onClick={() => changeLanguage("en")}
               className={`hover:opacity-70 transition-opacity ${
@@ -154,6 +172,7 @@ export default function Header({
 
           <Link
             href={`/${lang}/#contact`}
+            onClick={(e) => handleScrollToSection(e, "contact")}
             className="border border-sky-600 text-sky-600 px-6 md:px-8 py-3 md:py-4 uppercase tracking-wider text-xs md:text-sm hover:border-sky-500 hover:text-sky-500 transition-colors"
           >
             {dict.reservation}
