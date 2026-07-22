@@ -1,7 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 import { Dictionary } from "@/getDictionary";
 
 export default function AboutSection({ dict }: { dict: Dictionary["about"] }) {
+  const params = useParams();
+  const pathname = usePathname();
+  
+  const lang = (params?.lang as string) || "tr";
+
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <section id="about-us" className="bg-[#111111] text-white w-full py-24">
       <div className="w-full px-8 md:px-20 xl:px-24 mx-auto">
@@ -35,7 +53,8 @@ export default function AboutSection({ dict }: { dict: Dictionary["about"] }) {
 
             <div>
               <Link
-                href="/#contact"
+                href={`/${lang}/#contact`}
+                onClick={(e) => handleScrollToSection(e, "contact")}
                 className="inline-block border border-white text-white px-10 py-3 md:py-4 text-[11px] md:text-xs font-bold uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-colors duration-300"
               >
                 {dict.button}
