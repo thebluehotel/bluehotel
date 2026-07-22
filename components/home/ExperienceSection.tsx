@@ -1,7 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 import { Dictionary } from "@/getDictionary";
 
 export default function ExperienceSection({ dict }: { dict: Dictionary["experience"] }) {
+  const params = useParams();
+  const pathname = usePathname();
+  
+  const lang = (params?.lang as string) || "tr";
+
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <section className="bg-black w-full px-8 md:px-20 xl:px-24 py-20 md:py-32">
       <div className="max-w-[1920px] mx-auto">
@@ -19,7 +37,8 @@ export default function ExperienceSection({ dict }: { dict: Dictionary["experien
           </div>
 
           <Link
-            href="/#rooms"
+            href={`/${lang}/#rooms`}
+            onClick={(e) => handleScrollToSection(e, "rooms")}
             className="col-span-1 relative min-h-[300px] lg:min-h-0 block group overflow-hidden"
           >
             <div
@@ -35,7 +54,8 @@ export default function ExperienceSection({ dict }: { dict: Dictionary["experien
           </Link>
 
           <Link
-            href="/#about-us"
+            href={`/${lang}/#about-us`}
+            onClick={(e) => handleScrollToSection(e, "about-us")}
             className="col-span-1 relative min-h-[300px] lg:min-h-0 block group overflow-hidden"
           >
             <div
