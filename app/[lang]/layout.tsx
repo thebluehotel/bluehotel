@@ -20,23 +20,19 @@ const geistMono = Geist_Mono({
 });
 
 export async function generateMetadata(props: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   const params = await props.params;
-  const isTr = params.lang === "tr";
+  const lang = params.lang as Locale;
+  const isTr = lang === "tr";
 
   return {
     metadataBase: new URL("https://www.thebluehotelizmir.com"),
-
     title: isTr ? "The Blue Hotel İzmir" : "The Blue Hotel Izmir",
-    description: isTr
-      ? "Lüks ve Konforun Tadını Çıkarın"
-      : "Enjoy Luxury and Comfort",
+    description: isTr ? "Lüks ve Konforun Tadını Çıkarın" : "Enjoy Luxury and Comfort",
     openGraph: {
       title: isTr ? "The Blue Hotel İzmir" : "The Blue Hotel Izmir",
-      description: isTr
-        ? "Lüks ve Konforun Tadını Çıkarın"
-        : "Enjoy Luxury and Comfort",
+      description: isTr ? "Lüks ve Konforun Tadını Çıkarın" : "Enjoy Luxury and Comfort",
       url: "https://www.thebluehotelizmir.com",
       siteName: "The Blue Hotel İzmir",
       images: [
@@ -44,9 +40,7 @@ export async function generateMetadata(props: {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: isTr
-            ? "The Blue Hotel İzmir Ön İzleme Görseli"
-            : "The Blue Hotel Izmir Preview Image",
+          alt: isTr ? "The Blue Hotel İzmir Ön İzleme Görseli" : "The Blue Hotel Izmir Preview Image",
         },
       ],
       locale: isTr ? "tr_TR" : "en_US",
@@ -55,9 +49,7 @@ export async function generateMetadata(props: {
     twitter: {
       card: "summary_large_image",
       title: isTr ? "The Blue Hotel İzmir" : "The Blue Hotel Izmir",
-      description: isTr
-        ? "Lüks ve Konforun Tadını Çıkarın"
-        : "Enjoy Luxury and Comfort",
+      description: isTr ? "Lüks ve Konforun Tadını Çıkarın" : "Enjoy Luxury and Comfort",
       images: ["/og-image.png"],
     },
   };
@@ -65,12 +57,12 @@ export async function generateMetadata(props: {
 
 export default async function RootLayout(props: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const params = await props.params;
-  const lang = params.lang;
+  const lang = params.lang as Locale;
   const dict = await getDictionary(lang);
-
+  
   return (
     <html
       lang={lang}
