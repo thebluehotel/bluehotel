@@ -1,7 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 import { Dictionary } from "@/getDictionary";
 
 export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
+  const params = useParams();
+  const pathname = usePathname();
+  
+  const lang = (params?.lang as string) || "tr";
+
+  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    if (pathname === `/${lang}` || pathname === "/") {
+      e.preventDefault();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <section className="relative h-screen min-h-[700px] w-full flex items-center bg-slate-900 mb-20">
       <div
@@ -28,7 +46,8 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
           </p>
 
           <Link
-            href="/#rooms"
+            href={`/${lang}/#rooms`}
+            onClick={(e) => handleScrollToSection(e, "rooms")}
             className="inline-block border border-white text-white px-8 py-4 text-xs md:text-sm font-bold uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-colors duration-300"
           >
             {dict.button}
