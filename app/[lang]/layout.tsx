@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 const nunitoSans = Nunito_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 const geistSans = Geist({
@@ -80,6 +82,7 @@ export default async function RootLayout(props: {
         {props.children}
         <Footer dict={dict.footer} lang={lang} />
       </body>
+      <GoogleAnalytics gaId="G-2ZGDF1KNQP" />
     </html>
   );
 }
