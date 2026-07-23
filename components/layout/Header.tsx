@@ -157,7 +157,6 @@ export default function Header({
             >
               TR
             </button>
-            <span>/</span>
             <button
               onClick={() => changeLanguage("en")}
               className={`hover:opacity-70 transition-opacity ${
