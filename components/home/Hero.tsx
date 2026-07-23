@@ -35,7 +35,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
             {dict.subtitle}
           </span>
 
-          <h1 className="text-4xl md:text-6xl lg:text-[85px] font-bold text-white mb-8 md:mb-12 leading-[1.05] uppercase tracking-tight break-words">
+          <h1 className="text-4xl md:text-6xl lg:text-[85px] font-bold text-white mb-8 md:mb-12 leading-[1.05] uppercase tracking-tight">
             {dict.titleLine1} <br />
             {dict.titleLine2} <br />
             {dict.titleLine3}
