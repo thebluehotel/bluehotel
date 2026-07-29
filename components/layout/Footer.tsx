@@ -60,6 +60,7 @@ export default function Footer({
                 {dict.addressLine2}
               </p>
               <Link href="tel:+902324842525"> +90 (232) 484 25 25 </Link> <br />
+              <Link href="tel:+905528727325"> +90 552 872 73 25 </Link> <br />
               <Link href="mailto:info@thebluehotelizmir.com">
                 info@thebluehotelizmir.com
               </Link>
@@ -83,7 +84,7 @@ export default function Footer({
                 </Link>
 
                 <Link
-                  href="https://wa.me/902324842525"
+                  href="https://wa.me/905528727325"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
