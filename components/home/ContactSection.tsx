@@ -37,6 +37,14 @@ export default function ContactSection({ dict }: { dict: Dictionary["contact"] }
                     +90 (232) 484 25 25
                   </a>
                 </p>
+                <p className="text-[15px] text-gray-300 font-medium leading-relaxed">
+                  <a
+                    href="tel:+905528727325"
+                    className="hover:text-white transition-colors"
+                  >
+                    +90 552 872 73 25
+                  </a>
+                </p>
               </div>
             </div>
 
