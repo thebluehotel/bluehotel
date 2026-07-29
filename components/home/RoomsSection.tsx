@@ -356,12 +356,12 @@ export default function RoomsSection({ dict }: { dict: Dictionary["rooms"] }) {
                     </div>
 
                     <div className="text-left md:text-right">
-                      <span className="block text-[10px] text-gray-500 font-bold uppercase tracking-widest mb-1">
+                      {/* <span className="block text-[10px] text-gray-500 font-bold uppercase tracking-widest mb-1">
                         {dict.perNight}
                       </span>
                       <span className="text-3xl font-bold text-white">
                         ${rooms[selectedRoomIndex].price}
-                      </span>
+                      </span> */}
                     </div>
                   </div>
 
