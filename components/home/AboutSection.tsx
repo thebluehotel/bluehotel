@@ -69,6 +69,15 @@ export default function AboutSection({ dict }: { dict: Dictionary["about"] }) {
                 +90 (232) 484 25 25
               </a>
             </div>
+
+            <div className="mt-8">
+              <a
+                href="tel:+905528727325"
+                className="text-white text-xs md:text-sm font-bold uppercase tracking-[0.15em] hover:text-gray-300 transition-colors"
+              >
+                +90 552 872 73 25
+              </a>
+            </div>
           </div>
         </div>
       </div>
