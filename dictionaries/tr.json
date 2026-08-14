@@ -35,14 +35,14 @@
     "items": [
       {
         "name": "Deluxe Oda",
-        "specs": "25 m² / 2 Yetişkin",
+        "specs": "35 m² / 2 Yetişkin",
         "capacity": "2 Yetişkin",
         "bed": "1 Çift Kişilik Yatak",
         "amenities": ["Klima", "Kettle & Çay/Kahve", "Ücretsiz Wi-Fi", "LCD TV"]
       },
       {
         "name": "Junior Suit",
-        "specs": "120 m² / 2 Yetişkin 1 Çocuk",
+        "specs": "35 m² / 2 Yetişkin 1 Çocuk",
         "capacity": "2 Yetişkin, 1 Çocuk",
         "bed": "1 King Yatak + 1 Kanepe",
         "amenities": [
@@ -55,7 +55,7 @@
       },
       {
         "name": "Spa Suit",
-        "specs": "30 m² / 2 Yetişkin",
+        "specs": "35 m² / 2 Yetişkin",
         "capacity": "2 Yetişkin",
         "bed": "1 King Yatak",
         "amenities": [
